@@ -1,0 +1,18 @@
+/*
+* @Author: fxf
+* @Date:   2018-01-06 11:03:01
+* @Last Modified by:   fxf
+* @Last Modified time: 2018-01-06 21:34:39
+*/
+.nav-simple{
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+}
+.nav-simple .logo{
+    font-size: 26px;
+    font-weight: bold;
+    color: #c60023;
+    text-decoration: none;
+}
