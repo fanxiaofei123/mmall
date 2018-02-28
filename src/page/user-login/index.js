@@ -2,10 +2,9 @@
 * @Author: fxf
 * @Date:   2017-12-10 17:41:09
 * @Last Modified by:   fxf
-* @Last Modified time: 2018-01-11 22:22:12
+* @Last Modified time: 2018-02-28 14:45:17
 */
-/*require('../module.js');
-console.log('hello login');*/
+'use strict';
 require('./index.css');
 require('page/common/nav-simple/index.js');
 var _user   = require('service/user-service.js');

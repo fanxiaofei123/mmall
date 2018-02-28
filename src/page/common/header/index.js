@@ -2,8 +2,9 @@
 * @Author: fxf
 * @Date:   2018-01-06 22:08:12
 * @Last Modified by:   fxf
-* @Last Modified time: 2018-01-06 22:10:26
+* @Last Modified time: 2018-02-28 14:27:25
 */
+'use strict';
 require('./index.css');
 var _mm     = require('util/mm.js');
 // 通用页面头部

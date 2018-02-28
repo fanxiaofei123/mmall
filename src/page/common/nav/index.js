@@ -2,8 +2,9 @@
 * @Author: fxf
 * @Date:   2018-01-06 21:45:23
 * @Last Modified by:   fxf
-* @Last Modified time: 2018-01-06 22:18:36
+* @Last Modified time: 2018-02-28 14:27:20
 */
+'use strict';
 require('./index.css');
 var _mm     = require('util/mm.js');
 var _user   = require('service/user-service.js');

@@ -2,8 +2,9 @@
 * @Author: fxf
 * @Date:   2018-01-06 23:36:49
 * @Last Modified by:   fxf
-* @Last Modified time: 2018-01-13 15:42:38
+* @Last Modified time: 2018-02-28 14:27:14
 */
+'use strict';
 require('./index.css');
 var _mm             = require('util/mm.js');
 var templateIndex   = require('./index.string');

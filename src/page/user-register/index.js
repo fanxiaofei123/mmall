@@ -2,8 +2,9 @@
 * @Author: fxf
 * @Date:   2018-01-11 22:34:30
 * @Last Modified by:   fxf
-* @Last Modified time: 2018-01-11 22:35:56
+* @Last Modified time: 2018-02-28 14:26:11
 */
+'use strict';
 require('./index.css');
 require('page/common/nav-simple/index.js');
 var _user   = require('service/user-service.js');
