@@ -2,7 +2,7 @@
 * @Author: fxf
 * @Date:   2018-01-29 21:34:32
 * @Last Modified by:   fxf
-* @Last Modified time: 2018-02-01 13:32:46
+* @Last Modified time: 2018-03-01 00:10:23
 */
 /*地址部分的样式*/
 .address-item,
@@ -159,7 +159,7 @@
 .form .form-line .label{
     display: block;
     float: left;
-    width: 80px;
+    width: 85px;
     text-align: right;
     height: 30px;
     line-height: 30px;
@@ -177,7 +177,7 @@
     margin-right: 10px;
 }
 .form .form-line .btn{
-    margin-left: 90px;
+    margin-left: 95px;
     height: 30px;
     line-height: 30px;
     font-size: 13px;

@@ -2,7 +2,7 @@
 * @Author: fxf
 * @Date:   2018-01-29 21:48:35
 * @Last Modified by:   fxf
-* @Last Modified time: 2018-02-01 11:34:31
+* @Last Modified time: 2018-03-01 16:10:51
 */
 'use strict';
 
@@ -22,6 +22,37 @@ var _order = {
         _mm.request({
             url     : _mm.getServerUrl('/order/create.do'),
             data    : orderInfo,
+            success : resolve,
+            error   : reject
+        });
+    },
+    //获取订单列表
+    getOrderList : function(listParam,resolve,reject){
+        _mm.request({
+            url     : _mm.getServerUrl('/order/list.do'),
+            data    : listParam,
+            success : resolve,
+            error   : reject
+        });
+    },
+    //获取订单详情
+    getOrderDetail : function(orderNumber,resolve,reject){
+        _mm.request({
+            url     : _mm.getServerUrl('/order/detail.do'),
+            data    : {
+                orderNo : orderNumber
+            },
+            success : resolve,
+            error   : reject
+        });
+    },
+    //取消订单
+    cancelOrder : function(orderNumber,resolve,reject){
+        _mm.request({
+            url     : _mm.getServerUrl('/order/cancel.do'),
+            data    : {
+                orderNo : orderNumber
+            },
             success : resolve,
             error   : reject
         });

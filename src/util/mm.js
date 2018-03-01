@@ -2,9 +2,9 @@
 * @Author: fxf
 * @Date:   2018-01-06 09:42:41
 * @Last Modified by:   fxf
-* @Last Modified time: 2018-02-28 14:57:34
+* @Last Modified time: 2018-02-28 22:47:45
 */
-/*'use strict';
+'use strict';
 var Hogan = require('hogan.js');
 var conf = {
     serverHost : ''
@@ -85,9 +85,9 @@ var _mm = {
     goHome : function(){
         window.location.href = './index.html';
     }
-};*/
+};
 
-'use strict';
+/*'use strict';
 var Hogan = require('hogan.js');
 var conf = {
     serverHost : ''
@@ -167,7 +167,7 @@ var _mm = {
     goHome : function(){
         window.location.href = './index.html';
     }
-};
+};*/
 
 module.exports = _mm;
 
