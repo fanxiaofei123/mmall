@@ -2,7 +2,7 @@
 * @Author: fxf
 * @Date:   2018-03-01 16:29:39
 * @Last Modified by:   fxf
-* @Last Modified time: 2018-03-01 17:44:46
+* @Last Modified time: 2018-03-01 19:04:15
 */
 'use strict';
 require('./index.css');
@@ -45,9 +45,6 @@ var page = {
         this.paymentTimer = window.setInterval(function(){
             _payment.getPaymentStatus(_this.data.orderNumber, function(res){
                 if (res == true) {
-                    window.location.href='./result.html?type=payment&orderNumber='+_this.data.orderNumber;
-                }
-                else{
                     window.location.href='./result.html?type=payment&orderNumber='+_this.data.orderNumber;
                 }
             });
